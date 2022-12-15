@@ -128,6 +128,9 @@ script{
       .right p{
         font-size: 1rem;
       } */
+      .parallax{
+        overflow-y: hidden;
+      }
       .mouse-move {
         top: 8%;
         left: 10%;
