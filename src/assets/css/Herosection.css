@@ -30,13 +30,26 @@
     position: absolute;
     transform: translateX(40%);
 } */
-
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/hero.png");
+  background-color: #005567;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  overflow-x: hidden;
+  z-index: 1000;
+  background-position: center;
+}
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500&display=swap');
 .herosection{
   overflow-x: hidden;
 }
 /* For rectangle you use after herosection for smooth gradient*/
-
+script{
+  color: white;
+}
 .mouse-move{
     color: white;
     font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -139,7 +152,7 @@
         padding-bottom: 1in;
       }
       .zoom{
-
+        overflow-y: hidden;
         /* position: relative;
         z-index: 1000;
         overflow: hidden;
@@ -210,7 +223,7 @@
       padding-bottom: 1.3in;
     }
     .zoom{
-
+      overflow-y: hidden;
       /* position: relative;
       z-index: 1000;
       overflow: hidden;
@@ -281,7 +294,8 @@
         font-size: 1.3em;
       }
       .zoom{
-
+        overflow-y: hidden;
+        background-attachment: fixed;
         /* position: relative;
         z-index: 1000;
         overflow: hidden;
@@ -353,8 +367,9 @@
       .general-info p{
         font-size: 1.5em;
       }
+     
       .zoom{
-
+        overflow-y: hidden;
       /* position: relative;
       z-index: 1000;
       overflow: hidden;
@@ -428,23 +443,34 @@
       object-fit: cover;
       background-size: cover;
       transition: 2s;
-    }
-
+  }
   .left-img{
     position: absolute;
-    transform: translate(-60%,-3%);
+    transform: translate(-60%,-8%);
+    /* max-height: 200em; */
     top: 0;
     left: 50%;
     z-index: 100;
-  }
-  .right-img{
+}
+.right-img{
     position: absolute;
     z-index: 100;
-    transform: translate(1%,-5%);
-  }
-  .text-img{
-    position: absolute;
-    transform: translateY(90%);
-    transform: translateZ(50%);
-  }
+    transform: translateX(3%);
 }
+.text-img{
+    /* z-index: 10000; */
+    position: absolute;
+    transform: translateY(70%);
+    transform: translateZ(50%);
+}
+    /* .zoom{
+        width: 100%;
+        height: 110vh;
+        position: relative;
+        z-index: 1000;
+        overflow: hidden;
+        background: url('../Images/hero.png');
+        object-fit: cover;
+        background-size: cover;
+    } */
+  }
