@@ -1,7 +1,7 @@
 # Conference Website
 
-<!-- Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra), [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg)) -->
-Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](https://github.com/Preet-Sojitra) , [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg), [Dev Parikh](https://github.com/Dev79844) and [Bhagirath Patel](https://github.com/bhagirath-bhp))
+
+Developed by [SnT Web Team] [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg)), [Dev Parikh](https://github.com/Dev79844) and [Bhavya Jain](https://github.com/BhavyaJain711))
 
 # Folder Structure
 
@@ -13,7 +13,7 @@ Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](
 │   ├── assets
 │   │   ├── css
 │   │   ├── data
-│   │   │   └── carouseldata.js
+│   │   │   
 │   │   └── images
 │   ├── Components
 │   ├── App.js
@@ -29,7 +29,7 @@ Developed by [Encode Web Team](https://github.com/Encode-PDEU) ([Preet Sojitra](
 
 2. Change the directory
 
-   `cd conference`
+   `cd Tesseract`
 
 3. Install the dependencies
 
