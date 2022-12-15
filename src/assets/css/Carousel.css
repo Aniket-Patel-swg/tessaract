@@ -1,0 +1,38 @@
+.carousel {
+    width: min(1000px,100vw)!important;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: rgba(255 , 255, 255, 0.2);
+    border-radius: 1.5rem; 
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.carousel_image{
+    margin: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+.carousel_text{
+    color: white;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.carousel_text h3{
+    color: yellow;
+}
+@media (max-width: 800px){
+    .item{
+        grid-template-columns: 1fr;
+    }
+    .carousel_image{
+        width: min(500px,80vw);
+        margin: 3vh auto;
+    }
+}
