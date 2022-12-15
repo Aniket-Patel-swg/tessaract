@@ -24,6 +24,7 @@ const Herosection = () => {
                         </p>
                     </div>
                 </div>
+                <div className="parallax">
                 <div className="zoom">
                     <img className="left-img" src={left} alt="" 
                         style={{width: (100 + offset * 0.3) + '%'}}
@@ -32,10 +33,10 @@ const Herosection = () => {
                         style={{width: (100 + offset * 0.3) + '%'}}
                     />
                     <img className="text-img" src={text} alt=""
-                        style={{top : `-${10 + offset * 0.3 + `%` }`}}
+                        style={{top : `-${10 + offset * 0.35 + `%` }`}}
                     />
                 </div>
-
+                </div>
                 <div className="content">
                     <h2>Great start of 2023</h2>
                     <p>
