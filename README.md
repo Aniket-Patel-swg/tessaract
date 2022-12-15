@@ -1,7 +1,7 @@
 # Conference Website
 
-<!-- Developed by [SnT Web Team] [Parth Sood](https://github.com/psood708) and [Aniket Patel](https://github.com/Aniket-Patel-swg)) -->
-Developed by [Encode Web Team](https://github.com/Encode-PDEU)  [Dev Parikh](https://github.com/Dev79844) and [Bhavya Jain](https://github.com/BhavyaJain711))
+
+Developed by [SnT Web Team] [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg)), [Dev Parikh](https://github.com/Dev79844) and [Bhavya Jain](https://github.com/BhavyaJain711))
 
 # Folder Structure
 
