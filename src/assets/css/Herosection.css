@@ -176,21 +176,24 @@ script{
         top: 0;
         left: 50%;
         z-index: 100; */
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
          /* max-height: 200em; */
     }
     .right-img{
         /* position: absolute;
         z-index: 100;
         transform: translateX(8%); */
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
     .text-img{
         /* z-index: 10000;
         position: absolute;
         transform: translateY(40%);
         transform: translateZ(50%); */
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
 }
 @media (min-width: 500px) and (max-width: 750px) {
@@ -245,21 +248,24 @@ script{
       top: 0;
       left: 50%;
       z-index: 100; */
-      visibility: hidden;
+      /* visibility: hidden; */
+      display: none;
        /* max-height: 200em; */
   }
   .right-img{
       /* position: absolute;
       z-index: 100;
       transform: translateX(8%); */
-      visibility: hidden;
+      /* visibility: hidden; */
+      display: none;
   }
   .text-img{
       /* z-index: 10000;
       position: absolute;
       transform: translateY(40%);
       transform: translateZ(50%); */
-      visibility: hidden;
+      /* visibility: hidden; */
+      display: none;
   }
   }
   
@@ -319,21 +325,24 @@ script{
         top: 0;
         left: 50%;
         z-index: 100; */
-        visibility: hidden;
+        display: none;
+        /* visibility: hidden; */
          /* max-height: 200em; */
     }
     .right-img{
         /* position: absolute;
         z-index: 100;
         transform: translateX(8%); */
-        visibility: hidden;
+        display: none;
+        /* visibility: hidden; */
     }
     .text-img{
         /* z-index: 10000;
         position: absolute;
         transform: translateY(40%);
         transform: translateZ(50%); */
-        visibility: hidden;
+        display: none;
+        /* visibility: hidden; */
     }
   }
   
@@ -392,14 +401,16 @@ script{
       top: 0;
       left: 50%;
       z-index: 100; */
-      visibility: hidden;
+      display: none;
+      /* visibility: hidden; */
        /* max-height: 200em; */
   }
   .right-img{
       /* position: absolute;
       z-index: 100;
       transform: translateX(8%); */
-      visibility: hidden;
+      /* visibility: hidden; */
+      display: none;
   }
   .text-img{
       /* z-index: 10000;
@@ -408,7 +419,8 @@ script{
       transform: translateZ(25%);
       max-width: 70%;
       max-height: 70%; */
-      visibility: hidden;
+      display: none;
+      /* visibility: hidden; */
   }
   }
   
